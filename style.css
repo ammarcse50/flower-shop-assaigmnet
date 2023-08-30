@@ -1,0 +1,29 @@
+
+
+
+header{
+
+    background-color:#f4bdc9 ;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+header .left-part{
+
+
+ margin-top: 100px;
+
+
+
+
+}
+header .left-part button{
+
+    background-color:#E55473  ;
+    color:white;
+
+    border-radius: 10px;
+}
