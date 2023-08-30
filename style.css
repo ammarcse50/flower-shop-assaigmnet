@@ -1,32 +1,25 @@
 body {
   margin: 0;
 }
-#container {
-}
-                                     
-
-                       /* heaader section  */
+/* heaader section  */
 header {
   background-color: #e3678232;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-
-header .left-part button , #signupbtn {
+header .left-part button,
+#signupbtn,
+#submitbtn {
   background-color: #e55473;
   color: white;
   border-radius: 10px;
   padding: 10px;
 }
-
-header .right-part img{
-
-     margin-bottom: -5px;
+header .right-part img {
+  margin-bottom: -5px;
 }
-
-                 /* ourfeatures section */
-
+/* ourfeatures section */
 #ourfeature-section .left-part {
   margin-top: 100px;
   text-align: center;
@@ -60,7 +53,6 @@ header .right-part img{
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
 }
-
 #ourfeature-section .right-part .flower1 img {
   margin-top: 50px;
   margin-left: 90px;
@@ -76,80 +68,61 @@ header .right-part img{
 #ourfeature-section .right-part .flower1 p {
   margin-top: -4px;
 }
-
 #ourfeature-section .right-part .flower2 p {
   margin-top: -4px;
 }
 #ourfeature-section .right-part .flower3 p {
   margin-top: -4px;
 }
-
-
-
-                     /* hotdeal section  */
-
-#hotdeal-section{
-
-
-    background-color: #e5547325;
-
-    margin-top: 100px;
-       margin-bottom: 50px;
-    display: flex;
-    justify-content: space-evenly;
-
-    align-items: center;
-
-
-
+/* hotdeal section  */
+#hotdeal-section {
+  background-color: #e5547325;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
-
-#hotdeal-section .left-part{
-
-
-    text-align: center;
-
-
+#hotdeal-section .left-part {
+  text-align: center;
 }
-
-
-
-
-
-
-
-               /* Instragram-section 
+/* Instragram-section 
                */
-          #instragram-section{
-            
-             margin-bottom: 100px;
+#instragram-section {
+  margin-bottom: 100px;
+  margin: 70px;
+  margin-bottom: 50px;
+}
+#instragram-section .first-half {
+  text-align: center;
+}
+#instragram-section .second-half {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+#instragram-section .second-half img {
+  width: 250px;
+  height: 300px;
+}
+/* getDetails section  */
+#getDetails-section {
+  background-image: url("./Flower Asset/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  margin: 70px;
+  height: 449px;
+  position: relative;
+}
+#getDetails-section input {
+  margin-top: 50px;
+  width: 20%;
+  height: 50px;
+}
+#getDetails-section button {
+  height: 50px;
+}
+#getDetails-section .overlay {
+  text-align: center;
+  padding: 100px;
+}
 
-              margin:70px;
-
-              margin-bottom: 50px;
-
-
-          }
-
-     #instragram-section .first-half{
-
-        text-align: center;
-     }
-
-     #instragram-section .second-half{
-            
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: 40px;
-
-     }
-
-     #instragram-section .second-half img{
-
-        width: 250px;
-        height: 300px;
-     }
-
-
-
-     
