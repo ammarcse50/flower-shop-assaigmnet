@@ -126,3 +126,36 @@ header .right-part img {
   padding: 100px;
 }
 
+                   /* footer 
+                    */
+
+
+
+    footer{
+        background-color: black;
+        height: 300px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+        
+    }
+
+    footer h1 span{
+    color: #e72080;
+       
+ 
+    }
+
+
+    footer small,h1{
+
+   color:rgba(255, 255, 255, 0.861);
+   margin: 10px;
+
+    }
+
+    footer .overlay #copyRight{
+
+        color:rgba(255, 255, 255, 0.221);
+       margin-top: 10px;
+    }
