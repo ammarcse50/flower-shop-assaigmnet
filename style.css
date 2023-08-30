@@ -8,6 +8,9 @@ header {
   justify-content: space-evenly;
   align-items: center;
 }
+header h1{
+    color:black;
+}
 header .left-part button,
 #signupbtn,
 #submitbtn {
