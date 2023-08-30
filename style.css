@@ -1,29 +1,113 @@
+body {
+  margin: 0;
+}
+#container {
+}
+                                     
+
+                       /* heaader section  */
+header {
+  background-color: #e367824a;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header .left-part button , #signupbtn {
+  background-color: #e55473;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+header .right-part img{
+
+     margin-bottom: -5px;
+}
+
+                 /* ourfeatures section */
+
+#ourfeature-section .left-part {
+  margin-top: 100px;
+  text-align: center;
+}
+#ourfeature-section .right-part {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+#ourfeature-section .right-part div {
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+#ourfeature-section img {
+  width: 100px;
+  height: 250px;
+}
+#ourfeature-section .right-part .flower1 {
+  background-color: #a72162;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+#ourfeature-section .right-part .flower2 {
+  background-color: #0597a0;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+#ourfeature-section .right-part .flower3 {
+  background-color: #477d11;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+#ourfeature-section .right-part .flower1 img {
+  margin-top: 50px;
+  margin-left: 90px;
+}
+#ourfeature-section .right-part .flower2 img {
+  margin-top: 50px;
+  margin-left: 90px;
+}
+#ourfeature-section .right-part .flower3 img {
+  margin-top: 50px;
+  margin-left: 90px;
+}
+#ourfeature-section .right-part .flower1 p {
+  margin-top: -4px;
+}
+
+#ourfeature-section .right-part .flower2 p {
+  margin-top: -4px;
+}
+#ourfeature-section .right-part .flower3 p {
+  margin-top: -4px;
+}
 
 
 
-header{
+                     /* hotdeal section  */
 
-    background-color:#f4bdc9 ;
+#hotdeal-section{
+
+
+    background-color: #e554735e;
+
+    margin-top: 100px;
 
     display: flex;
     justify-content: space-evenly;
-}
 
-
-
-header .left-part{
-
-
- margin-top: 100px;
-
+    align-items: center;
 
 
 
 }
-header .left-part button{
 
-    background-color:#E55473  ;
-    color:white;
+#hotdeal-section .left-part{
 
-    border-radius: 10px;
+
+    text-align: center;
+
+
 }
