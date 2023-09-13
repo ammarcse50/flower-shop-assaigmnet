@@ -8,8 +8,8 @@ header {
   justify-content: space-evenly;
   align-items: center;
 }
-header h1{
-    color:black;
+header h1 {
+  color: black;
 }
 header .left-part button,
 #signupbtn,
@@ -128,37 +128,24 @@ header .right-part img {
   text-align: center;
   padding: 100px;
 }
-
-                   /* footer 
+/* footer 
                     */
-
-
-
-    footer{
-        background-color: black;
-        height: 300px;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-        
-    }
-
-    footer h1 span{
-    color: #e72080;
-       
- 
-    }
-
-
-    footer small,h1{
-
-   color:rgba(255, 255, 255, 0.861);
-   margin: 10px;
-
-    }
-
-    footer .overlay #copyRight{
-
-        color:rgba(255, 255, 255, 0.221);
-       margin-top: 10px;
-    }
+footer {
+  background-color: black;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer h1 span {
+  color: #e72080;
+}
+footer small,
+h1 {
+  color: rgba(255, 255, 255, 0.861);
+  margin: 10px;
+}
+footer .overlay #copyRight {
+  color: rgba(255, 255, 255, 0.221);
+  margin-top: 10px;
+}
